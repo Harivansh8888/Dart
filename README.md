@@ -1,2 +1,1 @@
-<h3>Basics and Fundamentals of Dart</h3>
-[Dart](https://dart.dev/)
+<h3>Basics and Fundamentals of <a href="https://dart.dev/">Dart</a></h3>
