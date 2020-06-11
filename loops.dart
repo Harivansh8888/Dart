@@ -7,4 +7,7 @@ main() {
   for ( var n in numbers) { //for-in loop
     print(n);
   }
+  
+  numbers.forEach((num) => print(num) ); //forEach loop
+  
 }
