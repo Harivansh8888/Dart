@@ -10,4 +10,9 @@ main() {
   
   numbers.forEach((num) => print(num) ); //forEach loop
   
+  int a = 5;
+  while(a > 0) { //while loop
+    print(a);
+    a = a - 1;
+  }
 }
