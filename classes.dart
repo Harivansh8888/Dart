@@ -12,3 +12,10 @@ class Person {
     print(age);
   }
 }
+
+class X {
+  final fname;
+  static const int age = 10;
+
+  X(this.fname);
+}
