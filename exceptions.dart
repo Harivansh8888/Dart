@@ -27,3 +27,5 @@ void verifyTheValue(var val) {
 void main() {
   verifyTheValue(0);
 }
+
+// 'on' keyword is used when we want a specific type of Exception
