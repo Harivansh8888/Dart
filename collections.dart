@@ -33,4 +33,14 @@ main() {
   for (var x in elements) {
     print(x);
   }
+  
+  //Map
+  var gifts = {
+    //Key : Value
+    'a' : 'flower',
+    'b' : 'choclates',
+    'c' : 'card'
+  };
+
+  print(gifts['c']);
 }
