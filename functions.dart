@@ -1,5 +1,6 @@
 main() {
-  
+  showOutput(square(2));
+  addShow(add(n1: 6, n2: 7));
 }
 
 dynamic square(var num) {
