@@ -16,4 +16,14 @@ main() {
   for (var i in n2) {
     print(i);
   }
+  
+  List a = ['Jack', 'Jill'];
+
+  var a2 = [...a]; // Spread Operator ...
+
+  a[1] = 'Mark';
+
+  for (var i in a2) {
+    print(i);
+  }
 }
