@@ -26,4 +26,11 @@ main() {
   for (var i in a2) {
     print(i);
   }
+  
+  //Set
+  var elements = {'hydrogen', 'oxygen', 'hydrogen'}; //only unique elements
+
+  for (var x in elements) {
+    print(x);
+  }
 }
