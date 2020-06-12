@@ -40,3 +40,5 @@ void main() {
 
   print(X.age);
 }
+
+//Inheritance also works in Dart --> 'extends' keyword
