@@ -23,3 +23,7 @@ void verifyTheValue(var val) {
     }
   }
 }
+
+void main() {
+  verifyTheValue(0);
+}
