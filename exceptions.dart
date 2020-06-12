@@ -4,3 +4,22 @@ int mustGreaterThanZero(int val) {
   }
   return val;
 }
+
+void verifyTheValue(var val) {
+  var verify;
+
+  try {
+    verify = mustGreaterThanZero(val);
+  }
+  catch(e) {
+    print(e);
+  }
+  finally {
+    if (verify == null) {
+      print('Value is not accepted');
+    }
+    else {
+      print('Value verified : $verify');
+    }
+  }
+}
