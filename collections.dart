@@ -43,4 +43,10 @@ main() {
   };
 
   print(gifts['c']);
+  
+  var map1 = Map();
+  map1['abc'] = 'Mango';
+  map1['def'] = 'Pineapple';
+
+  print(map1['abc']);
 }
